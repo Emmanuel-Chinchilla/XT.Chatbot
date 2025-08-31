@@ -52,3 +52,17 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+
+XUMTech Chatbot API/.vs
+XUMTech Chatbot API/ChatBot.Controller/obj
+XUMTech Chatbot API/ChatBot.Controller/bin
+XUMTech Chatbot API/Chatbot.Model/obj
+XUMTech Chatbot API/Chatbot.Model/bin
+XUMTech Chatbot API/ChatBot.Tools/obj
+XUMTech Chatbot API/ChatBot.Tools/bin
+XUMTech Chatbot API/obj
+XUMTech Chatbot API/bin
+XUMTech Chatbot API/.config
+XUMTech Chatbot API/XUMTech Chatbot API.csproj.user
+XUMTech Chatbot API/Properties

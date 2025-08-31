@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>XUMTech_Chatbot_API</RootNamespace>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ChatBot.Controller\**" />
+    <Compile Remove="Chatbot.Model\**" />
+    <Compile Remove="Chatbot.Tools\**" />
+    <Compile Remove="XUMTech.Model\**" />
+    <Content Remove="ChatBot.Controller\**" />
+    <Content Remove="Chatbot.Model\**" />
+    <Content Remove="Chatbot.Tools\**" />
+    <Content Remove="XUMTech.Model\**" />
+    <EmbeddedResource Remove="ChatBot.Controller\**" />
+    <EmbeddedResource Remove="Chatbot.Model\**" />
+    <EmbeddedResource Remove="Chatbot.Tools\**" />
+    <EmbeddedResource Remove="XUMTech.Model\**" />
+    <None Remove="ChatBot.Controller\**" />
+    <None Remove="Chatbot.Model\**" />
+    <None Remove="Chatbot.Tools\**" />
+    <None Remove="XUMTech.Model\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="ChatBot.Controller\ChatBot.Controller.csproj" />
+    <ProjectReference Include="Chatbot.Model\Chatbot.Model.csproj" />
+    <ProjectReference Include="Chatbot.Tools\Chatbot.Tools.csproj" />
+  </ItemGroup>
+
+</Project>
